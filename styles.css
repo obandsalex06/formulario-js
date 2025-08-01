@@ -1,0 +1,44 @@
+body {
+background-color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+.formulario {
+    max-width: 800px; 
+    margin: 0 auto;  
+    padding: 20px;
+    background-color: #00000088;
+    border-radius: 8px;
+    color: white;
+}   
+input, select, textarea {
+width: auto;
+padding: 10px;
+margin: 10px 0;
+border-radius: 8px;
+border: none;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+font-size: 14px;
+}
+textarea {
+resize: vertical;
+}
+.boton {
+background-color: #d9d0c3;
+color: black;
+font-weight: bold;
+cursor: pointer;
+}
+h2, h3 {
+margin-top: 0;
+}
+label {
+display: block;
+text-align: left;
+margin: 10px 0 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
