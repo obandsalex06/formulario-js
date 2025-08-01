@@ -42,3 +42,31 @@ form {
     display: flex;
     flex-direction: column;
 }
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    color: black;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    max-width: 90%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.hidden {
+    display: none;
+}
